@@ -1,0 +1,19 @@
+Q: How can you use the staging area to make sure you have one commit per logical change?
+
+A: By adding the files i want to commit into the staging area. 
+
+Q: What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+A: Branches are useful when we want to add new feature but not on the main project until that feature is ready to be added.
+	- Branching helps to keep the project organized by providing more than one independent version of the project.  
+Q: How do the diagrams help you visualize the branch structure?
+
+A: By drawing the commits in sequential order and also the branches are illustrated as tree structure.
+
+Q: What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+A:  pros:-
+	- Automatic merge save the time and effort needed to merge the branches.
+	- Manual merge is prefered when there is ambiguity during automatic merge.
+
+	cons:-
+	- Manual merging is tedious, specially when the number of commits are huge and there is complicated dependency between the branches.
